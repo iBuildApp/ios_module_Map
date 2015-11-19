@@ -1,0 +1,45 @@
+/****************************************************************************
+ *                                                                           *
+ *  Copyright (C) 2014-2015 iBuildApp, Inc. ( http://ibuildapp.com )         *
+ *                                                                           *
+ *  This file is part of iBuildApp.                                          *
+ *                                                                           *
+ *  This Source Code Form is subject to the terms of the iBuildApp License.  *
+ *  You can obtain one at http://ibuildapp.com/license/                      *
+ *                                                                           *
+ ****************************************************************************/
+
+/* --- module Google Map strings --- */
+
+/* Cancel */
+"mMap_directionListCancelButtonTitle" = "Отмена";
+
+/* Get Direction */
+"mMap_getDirectionButtonTitle" = "Показать маршрут";
+
+/* Cannot detect locaton! */
+"mMap_locationDetectionErrorMessage" = "Невозможно определить координаты!";
+
+/* OK */
+"mMap_locationDetectionErrorOkButtonTitle" = "OK";
+
+/* Error */
+"mMap_locationDetectionErrorTitle" = "Ошибка";
+
+/* To re-enable, please go to Settings and turn on Location Service for this app. */
+"mMap_locationDisabledMessage" = "Включите определение координат:\nНастройки > Приватность > Геолокация";
+
+/* "To use background location you must turn on 'While Using the App' or 'Always' in the Location Services Settings" */
+"mMap_locationDisabledOpenServicesSettingsMessage" = "Включите определение координат:\nНастройки > Приватность > Геолокация";
+
+/* OK */
+"mMap_locationDisabledOkButtonTitle" = "OK";
+
+/* Cancel */
+"mMap_locationDisabledCancelButtonTitle" = "Отмена";
+
+/* Settings */
+"mMap_locationDisabledSettingsButtonTitle" = "Настройки";
+
+/* Location Service Disabled */
+"mMap_locationDisabledTitle" = "Геолокация отключена";

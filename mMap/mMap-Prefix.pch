@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'mMap' target in the 'mMap' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+
+  #define resourceFromBundle(_resource_name_) (@"mMapResources.bundle/" _resource_name_)
+
+  #undef thisBundle
+  #define thisBundle [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] \
+                stringByAppendingPathComponent:@"mMapResources.bundle"]]
+
+  #undef SLBundlePluralizedString
+  #define SLBundlePluralizedString(key, n, comment) \
+                SLPluralizedStringFromTableInBundle(key, nil, thisBundle, n, comment)
+
+  #undef NSBundleLocalizedString
+  #define NSBundleLocalizedString(key, comment) \
+                    [thisBundle localizedStringForKey:(key) \
+                    value:@"" \
+                    table:nil]
+
+#endif
+
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
