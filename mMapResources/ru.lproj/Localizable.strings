@@ -11,9 +11,6 @@
 
 /* --- module Google Map strings --- */
 
-/* Cancel */
-"mMap_directionListCancelButtonTitle" = "Отмена";
-
 /* Get Direction */
 "mMap_getDirectionButtonTitle" = "Показать маршрут";
 

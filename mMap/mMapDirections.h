@@ -10,6 +10,7 @@
  ****************************************************************************/
 
 #import <UIKit/UIKit.h>
+#import "iphColorskinModel.h"
 
 /**
  *  ViewController with webView for directions functional
@@ -22,13 +23,12 @@
 @property (nonatomic, strong) UIWebView *webView;
 
 /**
- *  Defines TabBar behavior
- */
-@property (nonatomic, assign) BOOL      tabBarIsHidden;
-
-/**
- *  Array with ponts info
+ *  Array with points info
  */
 @property (nonatomic, strong) NSArray   *points;
+
+@property (nonatomic, strong) iphColorskinModel *colorSkin;
+
+@property (nonatomic,assign) BOOL defaultColorScheme;
 
 @end

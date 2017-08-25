@@ -5,6 +5,9 @@
 #ifdef __OBJC__
   #import <Foundation/Foundation.h>
 
+  #import "NSString+colorizer.h"
+  #import "NSString+size.h"
+
   #define resourceFromBundle(_resource_name_) (@"mMapResources.bundle/" _resource_name_)
 
   #undef thisBundle

@@ -11,9 +11,6 @@
 
 /* --- module Google Map strings --- */
 
-/* Cancel */
-"mMap_directionListCancelButtonTitle" = "Cancel";
-
 /* Get Direction */
 "mMap_getDirectionButtonTitle" = "Get Direction";
 

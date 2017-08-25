@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3756BEE11DA4F0A20067CD33 /* mMapGoogleMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3756BEE01DA4F0A20067CD33 /* mMapGoogleMapView.m */; };
+		3756BEE41DA4FE850067CD33 /* mMapBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3756BEE31DA4FE850067CD33 /* mMapBottomView.m */; };
+		3756BEEB1DA506920067CD33 /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3756BEE51DA506920067CD33 /* point@2x.png */; };
+		3756BEEC1DA506920067CD33 /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 3756BEE61DA506920067CD33 /* point.png */; };
+		3756BEED1DA506920067CD33 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3756BEE71DA506920067CD33 /* location@2x.png */; };
+		3756BEEE1DA506920067CD33 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 3756BEE81DA506920067CD33 /* location.png */; };
+		3756BEEF1DA506920067CD33 /* direction@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3756BEE91DA506920067CD33 /* direction@2x.png */; };
+		3756BEF01DA506920067CD33 /* direction.png in Resources */ = {isa = PBXBuildFile; fileRef = 3756BEEA1DA506920067CD33 /* direction.png */; };
+		3756BEF31DA5455E0067CD33 /* mMapDirectionsMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3756BEF11DA5455E0067CD33 /* mMapDirectionsMenuView.m */; };
+		37D2892F1DA7928800224718 /* link@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D2892D1DA7928800224718 /* link@2x.png */; };
+		37D289301DA7928800224718 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D2892E1DA7928800224718 /* link.png */; };
 		5935AA4718B5F8F4007635B3 /* mMap_findMeBtnIPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5935AA4518B5F8F4007635B3 /* mMap_findMeBtnIPad.png */; };
 		5935AA4818B5F8F4007635B3 /* mMap_findMeBtnIPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5935AA4618B5F8F4007635B3 /* mMap_findMeBtnIPad@2x.png */; };
 		593F426818B4B90400ADA148 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 593F426618B4B90400ADA148 /* InfoPlist.strings */; };
-		593F427718B4B99700ADA148 /* _mapweb_page_MovableMarker in Resources */ = {isa = PBXBuildFile; fileRef = 593F426E18B4B99700ADA148 /* _mapweb_page_MovableMarker */; };
-		593F427918B4B99700ADA148 /* mMap_findMeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 593F427018B4B99700ADA148 /* mMap_findMeBtn.png */; };
-		593F427A18B4B99700ADA148 /* mMap_findMeBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 593F427118B4B99700ADA148 /* mMap_findMeBtn@2x.png */; };
-		593F427B18B4B99700ADA148 /* mMap_getDirectionBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 593F427218B4B99700ADA148 /* mMap_getDirectionBtn.png */; };
-		593F427C18B4B99700ADA148 /* mMap_getDirectionBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 593F427318B4B99700ADA148 /* mMap_getDirectionBtn@2x.png */; };
-		593F427D18B4B99700ADA148 /* _mapweb_page in Resources */ = {isa = PBXBuildFile; fileRef = 593F427418B4B99700ADA148 /* _mapweb_page */; };
 		593F428518B4BA4F00ADA148 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 593F428718B4BA4F00ADA148 /* Localizable.strings */; };
 		593F429818B4CA7E00ADA148 /* mMap_getDirectionBtnIPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 593F429618B4CA7E00ADA148 /* mMap_getDirectionBtnIPad.png */; };
 		593F429918B4CA7E00ADA148 /* mMap_getDirectionBtnIPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 593F429718B4CA7E00ADA148 /* mMap_getDirectionBtnIPad@2x.png */; };
@@ -46,18 +51,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3756BEDF1DA4F0A20067CD33 /* mMapGoogleMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mMapGoogleMapView.h; path = Views/mMapGoogleMapView.h; sourceTree = "<group>"; };
+		3756BEE01DA4F0A20067CD33 /* mMapGoogleMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mMapGoogleMapView.m; path = Views/mMapGoogleMapView.m; sourceTree = "<group>"; };
+		3756BEE21DA4FE850067CD33 /* mMapBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mMapBottomView.h; path = Views/mMapBottomView.h; sourceTree = "<group>"; };
+		3756BEE31DA4FE850067CD33 /* mMapBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mMapBottomView.m; path = Views/mMapBottomView.m; sourceTree = "<group>"; };
+		3756BEE51DA506920067CD33 /* point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "point@2x.png"; path = "mMap/resources/point@2x.png"; sourceTree = SOURCE_ROOT; };
+		3756BEE61DA506920067CD33 /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = point.png; path = mMap/resources/point.png; sourceTree = SOURCE_ROOT; };
+		3756BEE71DA506920067CD33 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@2x.png"; path = "mMap/resources/location@2x.png"; sourceTree = SOURCE_ROOT; };
+		3756BEE81DA506920067CD33 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = mMap/resources/location.png; sourceTree = SOURCE_ROOT; };
+		3756BEE91DA506920067CD33 /* direction@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "direction@2x.png"; path = "mMap/resources/direction@2x.png"; sourceTree = SOURCE_ROOT; };
+		3756BEEA1DA506920067CD33 /* direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = direction.png; path = mMap/resources/direction.png; sourceTree = SOURCE_ROOT; };
+		3756BEF11DA5455E0067CD33 /* mMapDirectionsMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mMapDirectionsMenuView.m; path = Views/mMapDirectionsMenuView.m; sourceTree = "<group>"; };
+		3756BEF21DA5455E0067CD33 /* mMapDirectionsMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mMapDirectionsMenuView.h; path = Views/mMapDirectionsMenuView.h; sourceTree = "<group>"; };
+		37D2892D1DA7928800224718 /* link@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "link@2x.png"; path = "mMap/resources/link@2x.png"; sourceTree = SOURCE_ROOT; };
+		37D2892E1DA7928800224718 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link.png; path = mMap/resources/link.png; sourceTree = SOURCE_ROOT; };
 		5935AA4518B5F8F4007635B3 /* mMap_findMeBtnIPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mMap_findMeBtnIPad.png; path = mMap/resources/mMap_findMeBtnIPad.png; sourceTree = SOURCE_ROOT; };
 		5935AA4618B5F8F4007635B3 /* mMap_findMeBtnIPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mMap_findMeBtnIPad@2x.png"; path = "mMap/resources/mMap_findMeBtnIPad@2x.png"; sourceTree = SOURCE_ROOT; };
 		593F425C18B4B90400ADA148 /* mMapResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mMapResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		593F426518B4B90400ADA148 /* mMapResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mMapResources-Info.plist"; sourceTree = "<group>"; };
 		593F426718B4B90400ADA148 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		593F426918B4B90400ADA148 /* mMapResources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mMapResources-Prefix.pch"; sourceTree = "<group>"; };
-		593F426E18B4B99700ADA148 /* _mapweb_page_MovableMarker */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = _mapweb_page_MovableMarker; path = ../mMap/resources/_mapweb_page_MovableMarker; sourceTree = "<group>"; };
-		593F427018B4B99700ADA148 /* mMap_findMeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mMap_findMeBtn.png; path = ../mMap/resources/mMap_findMeBtn.png; sourceTree = "<group>"; };
-		593F427118B4B99700ADA148 /* mMap_findMeBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mMap_findMeBtn@2x.png"; path = "../mMap/resources/mMap_findMeBtn@2x.png"; sourceTree = "<group>"; };
-		593F427218B4B99700ADA148 /* mMap_getDirectionBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mMap_getDirectionBtn.png; path = ../mMap/resources/mMap_getDirectionBtn.png; sourceTree = "<group>"; };
-		593F427318B4B99700ADA148 /* mMap_getDirectionBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mMap_getDirectionBtn@2x.png"; path = "../mMap/resources/mMap_getDirectionBtn@2x.png"; sourceTree = "<group>"; };
-		593F427418B4B99700ADA148 /* _mapweb_page */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = _mapweb_page; path = ../mMap/resources/_mapweb_page; sourceTree = "<group>"; };
 		593F428618B4BA4F00ADA148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		593F428818B4BA5400ADA148 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		593F428918B4BA6900ADA148 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -90,6 +103,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3756BEDE1DA4EFEE0067CD33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3756BEF21DA5455E0067CD33 /* mMapDirectionsMenuView.h */,
+				3756BEF11DA5455E0067CD33 /* mMapDirectionsMenuView.m */,
+				3756BEDF1DA4F0A20067CD33 /* mMapGoogleMapView.h */,
+				3756BEE01DA4F0A20067CD33 /* mMapGoogleMapView.m */,
+				3756BEE21DA4FE850067CD33 /* mMapBottomView.h */,
+				3756BEE31DA4FE850067CD33 /* mMapBottomView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		593F426318B4B90400ADA148 /* mMapResources */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,16 +139,18 @@
 		593F426D18B4B96A00ADA148 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				37D2892D1DA7928800224718 /* link@2x.png */,
+				37D2892E1DA7928800224718 /* link.png */,
+				3756BEE51DA506920067CD33 /* point@2x.png */,
+				3756BEE61DA506920067CD33 /* point.png */,
+				3756BEE71DA506920067CD33 /* location@2x.png */,
+				3756BEE81DA506920067CD33 /* location.png */,
+				3756BEE91DA506920067CD33 /* direction@2x.png */,
+				3756BEEA1DA506920067CD33 /* direction.png */,
 				5935AA4518B5F8F4007635B3 /* mMap_findMeBtnIPad.png */,
 				5935AA4618B5F8F4007635B3 /* mMap_findMeBtnIPad@2x.png */,
 				593F429618B4CA7E00ADA148 /* mMap_getDirectionBtnIPad.png */,
 				593F429718B4CA7E00ADA148 /* mMap_getDirectionBtnIPad@2x.png */,
-				593F426E18B4B99700ADA148 /* _mapweb_page_MovableMarker */,
-				593F427418B4B99700ADA148 /* _mapweb_page */,
-				593F427018B4B99700ADA148 /* mMap_findMeBtn.png */,
-				593F427118B4B99700ADA148 /* mMap_findMeBtn@2x.png */,
-				593F427218B4B99700ADA148 /* mMap_getDirectionBtn.png */,
-				593F427318B4B99700ADA148 /* mMap_getDirectionBtn@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -148,6 +176,7 @@
 		595A194F1675F1CD006D5236 /* mMap */ = {
 			isa = PBXGroup;
 			children = (
+				3756BEDE1DA4EFEE0067CD33 /* Views */,
 				595A19611675F24C006D5236 /* mMapDirections.h */,
 				595A19621675F24C006D5236 /* mMapDirections.m */,
 				595A19631675F24C006D5236 /* mMap.h */,
@@ -175,7 +204,6 @@
 				593F425818B4B90400ADA148 /* Sources */,
 				593F425918B4B90400ADA148 /* Frameworks */,
 				593F425A18B4B90400ADA148 /* Resources */,
-				593F428218B4B9F200ADA148 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -193,7 +221,6 @@
 				595A19461675F1CD006D5236 /* Sources */,
 				595A19471675F1CD006D5236 /* Frameworks */,
 				595A19481675F1CD006D5236 /* CopyFiles */,
-				595A19721675F591006D5236 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -211,7 +238,7 @@
 		595A19411675F1CD006D5236 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = iBuildApp;
 			};
 			buildConfigurationList = 595A19441675F1CD006D5236 /* Build configuration list for PBXProject "mMap" */;
@@ -238,51 +265,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D2892F1DA7928800224718 /* link@2x.png in Resources */,
 				5935AA4718B5F8F4007635B3 /* mMap_findMeBtnIPad.png in Resources */,
-				593F427B18B4B99700ADA148 /* mMap_getDirectionBtn.png in Resources */,
 				593F429818B4CA7E00ADA148 /* mMap_getDirectionBtnIPad.png in Resources */,
-				593F427718B4B99700ADA148 /* _mapweb_page_MovableMarker in Resources */,
+				3756BEEC1DA506920067CD33 /* point.png in Resources */,
+				3756BEEE1DA506920067CD33 /* location.png in Resources */,
+				3756BEED1DA506920067CD33 /* location@2x.png in Resources */,
 				593F429918B4CA7E00ADA148 /* mMap_getDirectionBtnIPad@2x.png in Resources */,
 				5935AA4818B5F8F4007635B3 /* mMap_findMeBtnIPad@2x.png in Resources */,
+				37D289301DA7928800224718 /* link.png in Resources */,
 				593F428518B4BA4F00ADA148 /* Localizable.strings in Resources */,
-				593F427A18B4B99700ADA148 /* mMap_findMeBtn@2x.png in Resources */,
-				593F427D18B4B99700ADA148 /* _mapweb_page in Resources */,
-				593F427918B4B99700ADA148 /* mMap_findMeBtn.png in Resources */,
+				3756BEEF1DA506920067CD33 /* direction@2x.png in Resources */,
+				3756BEEB1DA506920067CD33 /* point@2x.png in Resources */,
+				3756BEF01DA506920067CD33 /* direction.png in Resources */,
 				593F426818B4B90400ADA148 /* InfoPlist.strings in Resources */,
-				593F427C18B4B99700ADA148 /* mMap_getDirectionBtn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		593F428218B4B9F200ADA148 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "cp -fR \"$CODESIGNING_FOLDER_PATH\" `echo $PROJECT_DIR | sed 's/appbuilder/appbuilder_server/g'`";
-		};
-		595A19721675F591006D5236 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "cp -fR \"$CODESIGNING_FOLDER_PATH\" `echo $PROJECT_DIR | sed 's/appbuilder/appbuilder_server/g'`";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		593F425818B4B90400ADA148 /* Sources */ = {
@@ -296,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3756BEE11DA4F0A20067CD33 /* mMapGoogleMapView.m in Sources */,
 				595A19651675F24C006D5236 /* mMapDirections.m in Sources */,
+				3756BEE41DA4FE850067CD33 /* mMapBottomView.m in Sources */,
 				595A19661675F24C006D5236 /* mMap.m in Sources */,
+				3756BEF31DA5455E0067CD33 /* mMapDirectionsMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +368,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = "";
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "iBuildApp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -401,6 +405,7 @@
 				INFOPLIST_FILE = "mMapResources/mMapResources-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "iBuildApp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -413,24 +418,50 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Pods/GoogleMaps/Base/Frameworks,
+					../../Pods/GoogleMaps/Maps/Frameworks,
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = NO;
+				HEADER_SEARCH_PATHS = ../../Pods/Headers/Public/GoogleMaps;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 arm64";
 			};
@@ -440,16 +471,41 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Pods/GoogleMaps/Base/Frameworks,
+					../../Pods/GoogleMaps/Maps/Frameworks,
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				HEADER_SEARCH_PATHS = ../../Pods/Headers/Public/GoogleMaps;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 arm64";
@@ -459,14 +515,19 @@
 		595A19591675F1CD006D5236 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/mMap.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Pods/GoogleMaps/Base/Frameworks,
+					../../Pods/GoogleMaps/Maps/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mMap/mMap-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "../../libs/nrGridView ../../libs/tbxml/tbxml-headers/ ../../Classes/network ../../Classes/CustomControls ../../Classes/layout ../mWebVC/";
+				USER_HEADER_SEARCH_PATHS = "../../libs/nrGridView ../../libs/tbxml/tbxml-headers/ ../../Classes/network ../../Classes/CustomControls ../../Classes/layout ../mWebVC/ ../../Classes/customControls/iphone/ ../../Classes/common/";
 				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Debug;
@@ -474,14 +535,19 @@
 		595A195A1675F1CD006D5236 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/mMap.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Pods/GoogleMaps/Base/Frameworks,
+					../../Pods/GoogleMaps/Maps/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mMap/mMap-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "../../libs/nrGridView ../../libs/tbxml/tbxml-headers/ ../../Classes/network ../../Classes/CustomControls ../../Classes/layout ../mWebVC/";
+				USER_HEADER_SEARCH_PATHS = "../../libs/nrGridView ../../libs/tbxml/tbxml-headers/ ../../Classes/network ../../Classes/CustomControls ../../Classes/layout ../mWebVC/ ../../Classes/customControls/iphone/ ../../Classes/common/";
 				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Release;

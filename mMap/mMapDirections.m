@@ -10,12 +10,11 @@
  ****************************************************************************/
 
 #import "mMapDirections.h"
-
+#import "iphNavBarCustomization.h"
 
 @implementation mMapDirections
 @synthesize points = _points,
-           webView = _webView,
-            tabBarIsHidden;
+           webView = _webView;
 
 #pragma mark -
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -25,18 +24,15 @@
   {
     _points  = nil;
     _webView = nil;
-    self.tabBarIsHidden = NO;
   }
   return self;
 }
 
 -(void)dealloc
 {
-  self.points = nil;
   [self.webView stopLoading];
   self.webView.delegate = nil;
   self.webView = nil;
-  [super dealloc];
 }
 
 -(void)didReceiveMemoryWarning
@@ -51,6 +47,11 @@
 {
   [super viewDidLoad];
   
+  if(_colorSkin != nil)
+  {
+    [iphNavBarCustomization setNavBarSettingsWhenViewDidLoadWithController:self];
+  }
+  
   NSString *_URL = [@"http://maps.google.com/maps?saddr=" stringByAppendingFormat:@"%@,%@&daddr=%@,%@",
                                                      [self.points objectAtIndex:0],
                                                      [self.points objectAtIndex:1],
@@ -60,7 +61,7 @@
 
   NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:_URL]];
   
-  self.webView = [[[UIWebView alloc] initWithFrame:[self view].bounds] autorelease];
+  self.webView = [[UIWebView alloc] initWithFrame:[self view].bounds];
   [self.webView setOpaque:NO];
   [self.webView setBackgroundColor:[UIColor colorWithRed:223.f/255.f green:219.f/255.f blue:212.f/255.f alpha:1.f]];
   [self.webView setAutoresizingMask:UIViewAutoresizingFlexibleWidth |
@@ -86,18 +87,26 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-  // before hiding / displaying tabBar we must remember its previous state
-  self.tabBarIsHidden = [[self.tabBarController tabBar] isHidden];
-  if ( !self.tabBarIsHidden )
-    [[self.tabBarController tabBar] setHidden:YES];
-  
   [super viewWillAppear:animated];
+  
+  if(_colorSkin != nil)
+  {
+    if(_defaultColorScheme == YES)
+      [iphNavBarCustomization customizeDefaultNavBarWithController:self colorskinModel:_colorSkin];
+    else
+      [iphNavBarCustomization customizeNavBarWithController:self colorskinModel:_colorSkin];
+  }
 }
 
 -(void)viewWillDisappear:(BOOL)animated
 {
-  // restore tabBar state
-  [[self.tabBarController tabBar] setHidden:self.tabBarIsHidden];
+  if(_colorSkin != nil)
+  {
+    if(_defaultColorScheme == YES)
+      [iphNavBarCustomization restoreDefaultNavBarWithController:self colorskinModel:_colorSkin];
+    else
+      [iphNavBarCustomization restoreNavBarWithController:self colorskinModel:_colorSkin];
+  }
   
   [super viewWillDisappear:animated];
 }

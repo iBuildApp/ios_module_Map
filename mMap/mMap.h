@@ -12,14 +12,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import "iphColorskinModel.h"
 
 /**
  *  Main module class for widget Google Map. Module entry point.
  */
-@interface mMapViewController : UIViewController < UIActionSheetDelegate,
-                                                  UIWebViewDelegate,
-                                                  CLLocationManagerDelegate,
-                                                  UIAlertViewDelegate>
+@interface mMapViewController : UIViewController <UIAlertViewDelegate>
 
 /**
  *  Array of map points
@@ -30,5 +28,7 @@
  *  Show pin for current location or not
  */
 @property (nonatomic, assign) BOOL              showCurrentUserLocation;
+
+@property (nonatomic, strong) iphColorskinModel *colorSkin;
 
 @end
